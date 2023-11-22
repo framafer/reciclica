@@ -6,6 +6,8 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LoaderPageModule } from './pages/loader/loader.module';
+import { LoaderPage } from './pages/loader/loader.page';
 
 @NgModule({
   declarations: [AppComponent],
